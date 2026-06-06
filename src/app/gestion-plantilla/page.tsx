@@ -173,10 +173,12 @@ export default function GestionPlantillaPage() {
                 contenido: data.contenido,
             };
 
-            handleUpdatePlayer(selectedPlayerForNotes.id_jugador, 'notas_privadas', [
-                ...(selectedPlayerForNotes.notas_privadas || []),
-                newNote
-            ]);
+            handleUpdatePlayer(selectedPlayerForNotes.id_jugador, {
+                notas_privadas: [
+                    ...(selectedPlayerForNotes.notas_privadas || []),
+                    newNote
+                ]
+            });
 
             setSelectedPlayerForNotes({
                 ...selectedPlayerForNotes,
@@ -199,7 +201,7 @@ export default function GestionPlantillaPage() {
             if (error) throw error;
 
             const updatedNotes = (selectedPlayerForNotes.notas_privadas || []).filter(n => n.id !== noteId);
-            handleUpdatePlayer(selectedPlayerForNotes.id_jugador, 'notas_privadas', updatedNotes);
+            handleUpdatePlayer(selectedPlayerForNotes.id_jugador, { notas_privadas: updatedNotes });
             setSelectedPlayerForNotes({
                 ...selectedPlayerForNotes,
                 notas_privadas: updatedNotes
