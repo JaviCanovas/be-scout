@@ -1,0 +1,1352 @@
+[
+    {
+        "id": "palazon-375737",
+        "nombre_deportivo": "Palazón",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Atl. Santa Cruz",
+        "posicion_principal": "MC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 26,
+            "nacionalidad": "es",
+            "peso": 77,
+            "altura": 185,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 10000,
+            "historico_valor": []
+        },
+        "elo": 38
+    },
+    {
+        "id": "m-barella-3600320",
+        "nombre_deportivo": "M. Barella",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "CD Roda Sub 19",
+        "posicion_principal": "",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": null,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 7,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 0,
+            "historico_valor": []
+        },
+        "elo": null
+    },
+    {
+        "id": "d-martinez-3315114",
+        "nombre_deportivo": "Codina",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Deportivo Marítimo",
+        "posicion_principal": "LD",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 20,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 178,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 4000,
+            "historico_valor": []
+        },
+        "elo": 31
+    },
+    {
+        "id": "valverde-1001674",
+        "nombre_deportivo": "D. Valverde",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "El Palmar",
+        "posicion_principal": "DC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 25,
+            "nacionalidad": "es",
+            "peso": 82,
+            "altura": 184,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 9000,
+            "historico_valor": []
+        },
+        "elo": 36
+    },
+    {
+        "id": "n-de-la-torre-3450854",
+        "nombre_deportivo": "N. De La Torre",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Talavera de la Reina U19",
+        "posicion_principal": "PT",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 18,
+            "nacionalidad": "es",
+            "peso": 74,
+            "altura": 192,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 0,
+            "historico_valor": []
+        },
+        "elo": null
+    },
+    {
+        "id": "juan-martinez-3362952",
+        "nombre_deportivo": "Juan Martínez",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Yeclano Deportivo B",
+        "posicion_principal": "CEN",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 20,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 15,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 0,
+            "historico_valor": []
+        },
+        "elo": 31
+    },
+    {
+        "id": "chema-88373",
+        "nombre_deportivo": "Chemita",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "El Palmar",
+        "posicion_principal": "ED",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 35,
+            "nacionalidad": "es",
+            "peso": 74,
+            "altura": 181,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 2000,
+            "historico_valor": []
+        },
+        "elo": 40
+    },
+    {
+        "id": "l-pilili-3629292",
+        "nombre_deportivo": "L. Pilili",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "CD Roda Sub 19",
+        "posicion_principal": "DEF",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": null,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 21,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 0,
+            "historico_valor": []
+        },
+        "elo": 31
+    },
+    {
+        "id": "aldiyar-nurgali-3532253",
+        "nombre_deportivo": "Aldiyar Nurgali",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Levante U19",
+        "posicion_principal": "MC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 17,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 26,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 3000,
+            "historico_valor": []
+        },
+        "elo": 35
+    },
+    {
+        "id": "antoni-jou-mas",
+        "nombre_deportivo": "Toni Jou",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Yeclano Deportivo",
+        "posicion_principal": "MC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 29,
+            "nacionalidad": "es",
+            "peso": 78,
+            "altura": 188,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 205000,
+            "historico_valor": []
+        },
+        "elo": 54
+    },
+    {
+        "id": "i-abad-3404621",
+        "nombre_deportivo": "Iker Abad",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Villarreal U19",
+        "posicion_principal": "LD",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 18,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 30,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 3000,
+            "historico_valor": []
+        },
+        "elo": 37
+    },
+    {
+        "id": "a-nahuel-3139252",
+        "nombre_deportivo": "A. Nahuel",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Bala Azul",
+        "posicion_principal": "MC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 25,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 15,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 19000,
+            "historico_valor": []
+        },
+        "elo": 40
+    },
+    {
+        "id": "jose-manuel-1028327",
+        "nombre_deportivo": "José Manuel",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "",
+        "posicion_principal": "DFC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 24,
+            "nacionalidad": "es",
+            "peso": 88,
+            "altura": 188,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 32000,
+            "historico_valor": []
+        },
+        "elo": 47
+    },
+    {
+        "id": "r-santa-3574734",
+        "nombre_deportivo": "R. Santa",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Real Murcia U19 B",
+        "posicion_principal": "DEL",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 16,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 26,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 0,
+            "historico_valor": []
+        },
+        "elo": 35
+    },
+    {
+        "id": "f-alarcon-763051",
+        "nombre_deportivo": "Ferny",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Minerva",
+        "posicion_principal": "LD",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 27,
+            "nacionalidad": "es",
+            "peso": 73,
+            "altura": 178,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 9000,
+            "historico_valor": []
+        },
+        "elo": 38
+    },
+    {
+        "id": "sancho-951738",
+        "nombre_deportivo": "Dani Sancho",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "SD Logroñés",
+        "posicion_principal": "DC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 24,
+            "nacionalidad": "es",
+            "peso": 78,
+            "altura": 188,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 94000,
+            "historico_valor": []
+        },
+        "elo": 42
+    },
+    {
+        "id": "j-lopez-133858",
+        "nombre_deportivo": "J. López",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Mazarrón FC",
+        "posicion_principal": "LD",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 30,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 170,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 8000,
+            "historico_valor": []
+        },
+        "elo": 38
+    },
+    {
+        "id": "alberto-soto-871747",
+        "nombre_deportivo": "Alberto Soto",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "UCAM Murcia",
+        "posicion_principal": "MP",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 24,
+            "nacionalidad": "es",
+            "peso": 70,
+            "altura": 170,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 353000,
+            "historico_valor": []
+        },
+        "elo": 56
+    },
+    {
+        "id": "a-puri-930486",
+        "nombre_deportivo": "A. Puri",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Yeclano Deportivo",
+        "posicion_principal": "MC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 26,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 178,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 58000,
+            "historico_valor": []
+        },
+        "elo": 45
+    },
+    {
+        "id": "j-belmonte-3618981",
+        "nombre_deportivo": "J. Belmonte",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "CD Cieza Sub 19",
+        "posicion_principal": "",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": null,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 25,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 0,
+            "historico_valor": []
+        },
+        "elo": null
+    },
+    {
+        "id": "javier-luengo-3252880",
+        "nombre_deportivo": "Javier Luengo",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Salerm Puente Genil",
+        "posicion_principal": "PT",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 20,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 192,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 2000,
+            "historico_valor": []
+        },
+        "elo": 39
+    },
+    {
+        "id": "morillas-70734",
+        "nombre_deportivo": "Morillas",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Atlético Pulpileño",
+        "posicion_principal": "LI",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 39,
+            "nacionalidad": "es",
+            "peso": 75,
+            "altura": 186,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 1000,
+            "historico_valor": []
+        },
+        "elo": 50
+    },
+    {
+        "id": "s-martinez-3183309",
+        "nombre_deportivo": "Caravanas",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Santomera",
+        "posicion_principal": "LD",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 23,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 180,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 23000,
+            "historico_valor": []
+        },
+        "elo": 42
+    },
+    {
+        "id": "ramon-159061",
+        "nombre_deportivo": "Ramón Blázquez",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "CD Estepona",
+        "posicion_principal": "LD",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 29,
+            "nacionalidad": "es",
+            "peso": 64,
+            "altura": 170,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 108000,
+            "historico_valor": []
+        },
+        "elo": 50
+    },
+    {
+        "id": "navarro-763009",
+        "nombre_deportivo": "Champi",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Crevillente Deportivo",
+        "posicion_principal": "MC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 34,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 179,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 15000,
+            "historico_valor": []
+        },
+        "elo": 42
+    },
+    {
+        "id": "j-lucas-1018334",
+        "nombre_deportivo": "J. Lucas",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Atl. Santa Cruz",
+        "posicion_principal": "DC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 21,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 174,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 20000,
+            "historico_valor": []
+        },
+        "elo": 39
+    },
+    {
+        "id": "v-ros-3399813",
+        "nombre_deportivo": "V. Ros",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Hércules U19",
+        "posicion_principal": "MC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": null,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 20,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 1000,
+            "historico_valor": []
+        },
+        "elo": 32
+    },
+    {
+        "id": "e-lopez-762975",
+        "nombre_deportivo": "Esteban López",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Cieza",
+        "posicion_principal": "EI",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 26,
+            "nacionalidad": "es",
+            "peso": 64,
+            "altura": 170,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 41000,
+            "historico_valor": []
+        },
+        "elo": 47
+    },
+    {
+        "id": "seydou-llopis-3447582",
+        "nombre_deportivo": "Seydou Llopis",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Villarreal U19",
+        "posicion_principal": "EI",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 18,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 11,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 3000,
+            "historico_valor": []
+        },
+        "elo": 36
+    },
+    {
+        "id": "p-polo-3234380",
+        "nombre_deportivo": "Pablo Polo",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Villarreal U19",
+        "posicion_principal": "PT",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 18,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 194,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 4000,
+            "historico_valor": []
+        },
+        "elo": 41
+    },
+    {
+        "id": "m-sanchez-3452327",
+        "nombre_deportivo": "Marc Pérez",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Villarreal U19",
+        "posicion_principal": "MC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 18,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 14,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 3000,
+            "historico_valor": []
+        },
+        "elo": 36
+    },
+    {
+        "id": "m-cobo-3315059",
+        "nombre_deportivo": "Marco Cobo",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Aguilas FC B",
+        "posicion_principal": "LI",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 19,
+            "nacionalidad": "es",
+            "peso": 65,
+            "altura": 169,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 6000,
+            "historico_valor": []
+        },
+        "elo": 39
+    },
+    {
+        "id": "divine-yeboah-3326097",
+        "nombre_deportivo": "Divine Yeboah",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Orihuela CF",
+        "posicion_principal": "DC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 21,
+            "nacionalidad": "es",
+            "peso": 80,
+            "altura": 185,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 35000,
+            "historico_valor": []
+        },
+        "elo": 45
+    },
+    {
+        "id": "a-olmos-3574878",
+        "nombre_deportivo": "A. Olmos",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Deportivo Marítimo",
+        "posicion_principal": "MP",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 16,
+            "nacionalidad": "es",
+            "peso": 58,
+            "altura": 168,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 0,
+            "historico_valor": []
+        },
+        "elo": null
+    },
+    {
+        "id": "r-riera-776289",
+        "nombre_deportivo": "Roan Riera",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "FC La Unión Atlético",
+        "posicion_principal": "DFC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 25,
+            "nacionalidad": "es",
+            "peso": 82,
+            "altura": 193,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 257000,
+            "historico_valor": []
+        },
+        "elo": 59
+    },
+    {
+        "id": "dani-franco-345860",
+        "nombre_deportivo": "Dani Franco",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Olímpico de Totana",
+        "posicion_principal": "DC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 28,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 14,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 13000,
+            "historico_valor": []
+        },
+        "elo": 40
+    },
+    {
+        "id": "alonso-996768",
+        "nombre_deportivo": "Alonso Yoldi",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Real Murcia Imperial",
+        "posicion_principal": "MC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 21,
+            "nacionalidad": "es",
+            "peso": 70,
+            "altura": 180,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 27000,
+            "historico_valor": []
+        },
+        "elo": 41
+    },
+    {
+        "id": "rafael-guillen-993462",
+        "nombre_deportivo": "Cachorro",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Atlético Onubense",
+        "posicion_principal": "MC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 22,
+            "nacionalidad": "es",
+            "peso": 72,
+            "altura": 180,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 32000,
+            "historico_valor": []
+        },
+        "elo": 49
+    },
+    {
+        "id": "j-pozo-232010",
+        "nombre_deportivo": "J. Pozo",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Salerm Puente Genil",
+        "posicion_principal": "DFC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 30,
+            "nacionalidad": "es",
+            "peso": 77,
+            "altura": 186,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 1000,
+            "historico_valor": []
+        },
+        "elo": 47
+    },
+    {
+        "id": "y-guerrero-3488710",
+        "nombre_deportivo": "Y. Guerrero",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Mazarrón FC",
+        "posicion_principal": "CEN",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": null,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 26,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 7000,
+            "historico_valor": []
+        },
+        "elo": 42
+    },
+    {
+        "id": "j-alegre-1005053",
+        "nombre_deportivo": "Juan Alegre",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Linares Deportivo",
+        "posicion_principal": "MC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 21,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 23,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 1000,
+            "historico_valor": []
+        },
+        "elo": 33
+    },
+    {
+        "id": "moha-339227",
+        "nombre_deportivo": "Moha",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Real Jaén",
+        "posicion_principal": "EI",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 26,
+            "nacionalidad": "es",
+            "peso": 67,
+            "altura": 179,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 254000,
+            "historico_valor": []
+        },
+        "elo": 52
+    },
+    {
+        "id": "e-milan-3575476",
+        "nombre_deportivo": "Quique Milán",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Elche U19",
+        "posicion_principal": "MP",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": null,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 14,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 0,
+            "historico_valor": []
+        },
+        "elo": 32
+    },
+    {
+        "id": "j-asiron-997094",
+        "nombre_deportivo": "Juan Asirón",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Almería B",
+        "posicion_principal": "MP",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 21,
+            "nacionalidad": "es",
+            "peso": 70,
+            "altura": 173,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 134000,
+            "historico_valor": []
+        },
+        "elo": 47
+    },
+    {
+        "id": "adrian-granado-3454326",
+        "nombre_deportivo": "Adrián Granado",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Talavera de la Reina U19",
+        "posicion_principal": "",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": null,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 4,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 0,
+            "historico_valor": []
+        },
+        "elo": null
+    },
+    {
+        "id": "a-rodriguez-337587",
+        "nombre_deportivo": "Albert",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Olímpico de Totana",
+        "posicion_principal": "MC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 28,
+            "nacionalidad": "es",
+            "peso": 65,
+            "altura": 174,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 30000,
+            "historico_valor": []
+        },
+        "elo": 44
+    },
+    {
+        "id": "a-areste-3575298",
+        "nombre_deportivo": "A. Areste",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Hércules U19",
+        "posicion_principal": "PT",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 17,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 188,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 0,
+            "historico_valor": []
+        },
+        "elo": null
+    },
+    {
+        "id": "siverio-431812",
+        "nombre_deportivo": "M. Siverio",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Real Jaén",
+        "posicion_principal": "DC",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": 31,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 184,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 123000,
+            "historico_valor": []
+        },
+        "elo": 51
+    },
+    {
+        "id": "y-lagares-3575060",
+        "nombre_deportivo": "Y. Lagares",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "Pinatar Sub 19",
+        "posicion_principal": "",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": null,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 1,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 0,
+            "historico_valor": []
+        },
+        "elo": null
+    },
+    {
+        "id": "j-gil-3575254",
+        "nombre_deportivo": "J. Gil",
+        "nombre": "",
+        "apellidos": "",
+        "foto": "",
+        "club_actual": "CD Roda Sub 19",
+        "posicion_principal": "",
+        "posicion_secundaria": null,
+        "biometria": {
+            "fecha_nacimiento": "ND",
+            "edad": null,
+            "nacionalidad": "es",
+            "peso": null,
+            "altura": 14,
+            "pie_bueno": "ND"
+        },
+        "estadisticas": {
+            "temporadas": []
+        },
+        "contrato": {
+            "fin": "ND",
+            "valor_mercado_actual": 0,
+            "historico_valor": []
+        },
+        "elo": null
+    }
+]

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-bescout-bg: #0f1115; /* Dark slate background */
+  --color-bescout-card: #1c2025; /* Slightly lighter card background */
+  --color-bescout-border: #2c323a; /* Borders */
+  
+  --color-bescout-accent-yes: #22c55e; /* Emerald / Green for YES / Good ratings */
+  --color-bescout-accent-yes-bg: #22c55e20;
+  
+  --color-bescout-accent-no: #ef4444; /* Red for NO / Red cards */
+  --color-bescout-accent-no-bg: #ef444420;
+  
+  --color-bescout-cyan: #06b6d4; /* Cyan accents for ELO, line charts, active filters */
+  --color-bescout-text: #e2e8f0; /* primary text */
+  --color-bescout-text-muted: #94a3b8; /* muted text */
+
+  --color-bescout-yellow: #eab308; /* Yellow cards */
+  --color-bescout-yellow-bg: #eab30820;
+  --color-bescout-gold: #f59e0b; /* Gold accent for squad */
+
+  /* Position badge colors */
+  --color-pos-por: #ef4444;   /* Portero — rojo */
+  --color-pos-def: #3b82f6;   /* Defensas — azul */
+  --color-pos-mid: #8b5cf6;   /* Centrocampistas — violeta */
+  --color-pos-fwd: #f97316;   /* Delanteros — naranja */
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-bescout-bg);
+  color: var(--color-bescout-text);
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Smooth scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-bescout-border) transparent;
+}

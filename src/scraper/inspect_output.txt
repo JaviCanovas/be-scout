@@ -1,0 +1,66 @@
+--- Player Head Panel ---
+PANEL 0 classes=['bet-age-confirm', 'panel', 'ta-c', 'hidden']:
+¿Eres mayor de edad?  SÍ NO  Confirma si tienes 18 años
+
+PANEL 1 classes=['box', 'hidden', 'mb0']:
+Buscar partido   Televisados   Favoritos
+
+PANEL 2 classes=['box', 'hidden', 'pb0']:
+RF    BeSoccer Pro    API    Company    Empleo    Lineups
+
+PANEL 3 classes=['box', 'hidden', 'mb0']:
+Editar perfil        Favoritos      Cerrar sesión
+
+PANEL 4 classes=['box', 'settings', 'pv10', 'hidden']:
+Ajustes     Idiomas
+
+PANEL 7 classes=['box', 'pt10']:
+English                                                              Español                                                              Français                                                              Italiano                                                              Português
+
+PANEL 8 classes=['panel']:
+Sigue el partido en directo     Cerrar
+
+PANEL 9 classes=['head-content', 'fws-hide', 'player-head', 'text-center']:
+A. Morales                              Almería U19 División de Honor                     36   1 K.€ 26   19 años  DFC
+
+PANEL 10 classes=['mt5', 'box', 'bg-role', 'black']:
+26
+
+PANEL 11 classes=['mt5', 'box', 'bg-role', 'rol2']:
+DFC
+
+PANEL 14 classes=['panel']:
+Debes iniciar sesión para añadir a favoritos. Crea una nueva cuenta si aún no tienes una.   Iniciar sesión                                  Continuar con Facebook                   Registrarse     Cerrar
+
+--- All generic divs with short text ---
+Found keyword '80
+kgs
+
+Def
+
+posición' in div with classes: ['stat']
+  Parent classes: ['panel-body', 'stat-list', 'jc-sa', 'ph5']
+Found keyword 'kgs' in div with classes: ['small-row']
+  Parent classes: ['stat']
+Found keyword '188
+cms
+
+26
+
+dorsal' in div with classes: ['stat']
+  Parent classes: ['panel-body', 'stat-list', 'jc-sa', 'ph5']
+Found keyword 'cms' in div with classes: ['small-row']
+  Parent classes: ['stat']
+Found keyword 'Valor más alto en la carrera
+40 (2026)' in div with classes: ['table-body']
+  Parent classes: ['panel-body', 'table-list']
+Found keyword 'Valor más alto en la carrera
+40 (2026)' in div with classes: ['table-row']
+  Parent classes: ['table-body']
+Found keyword 'Valor más alto en la carrera' in div with classes: None
+  Parent classes: ['table-row']
+Found keyword 'Edad
+7326º' in div with classes: ['table-row']
+  Parent classes: ['table-body']
+Found keyword 'Edad' in div with classes: None
+  Parent classes: ['table-row']
