@@ -3,6 +3,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { SidebarFilter } from '@/components/layout/SidebarFilter';
 import { PlayerTable } from '@/components/layout/PlayerTable';
+import { PlayerNotesPanel } from '@/components/squad/PlayerNotesPanel';
 import { filterPlayers, FilterOptions } from '@/lib/scouting-engine';
 import { supabase } from '@/lib/supabase';
 import { Jugador } from '@/types';
@@ -11,6 +12,7 @@ import { ClipboardList } from 'lucide-react';
 export default function JugadoresSeguidosPage() {
   const [allPlayers, setAllPlayers] = useState<Jugador[]>([]);
   const [loading, setLoading] = useState(true);
+  const [selectedPlayerForNotes, setSelectedPlayerForNotes] = useState<Jugador | null>(null);
 
   const [filters, setFilters] = useState<FilterOptions>({
     searchTerm: '',
@@ -34,6 +36,28 @@ export default function JugadoresSeguidosPage() {
           .order('nombre_corto', { ascending: true });
 
         if (error) throw error;
+
+        const jugadorIds = (data || []).map((p: any) => p.id_jugador);
+        let notasPorJugador: Record<string, any[]> = {};
+
+        if (jugadorIds.length > 0) {
+            const { data: notasData } = await supabase
+                .from('notas_privadas')
+                .select('*')
+                .in('id_jugador', jugadorIds)
+                .order('fecha', { ascending: false });
+
+            (notasData || []).forEach((nota: any) => {
+                if (!notasPorJugador[nota.id_jugador]) {
+                    notasPorJugador[nota.id_jugador] = [];
+                }
+                notasPorJugador[nota.id_jugador].push({
+                    id: nota.id,
+                    fecha: nota.fecha,
+                    contenido: nota.contenido,
+                });
+            });
+        }
 
         const mapped: Jugador[] = (data || []).map((row: any) => ({
           id_jugador: row.id_jugador,
@@ -70,6 +94,7 @@ export default function JugadoresSeguidosPage() {
           imagen_url: row.imagen_url ?? null,
           es_seguido: row.es_seguido ?? false,
           es_sub23: row.es_sub23 ?? false,
+          notas_privadas: notasPorJugador[row.id_jugador] || [],
         }));
 
         setAllPlayers(mapped);
@@ -101,6 +126,73 @@ export default function JugadoresSeguidosPage() {
       console.error('[BeScout] Error al dejar de seguir jugador:', err);
       // Opcional: Revertir si hay error (requeriría guardarlo o hacer re-fetch)
     }
+  };
+
+  const handleUpdatePlayerNotes = (id: string, updatedNotes: any[]) => {
+      setAllPlayers(current => current.map(p => {
+          if (p.id_jugador === id) {
+              return { ...p, notas_privadas: updatedNotes };
+          }
+          return p;
+      }));
+  };
+
+  const handleSaveNote = async (content: string) => {
+      if (!selectedPlayerForNotes) return;
+
+      const newNota = {
+          id_jugador: selectedPlayerForNotes.id_jugador,
+          contenido: content,
+      };
+
+      try {
+          const { data, error } = await supabase
+              .from('notas_privadas')
+              .insert(newNota)
+              .select()
+              .single();
+
+          if (error) throw error;
+
+          const newNote = {
+              id: data.id,
+              fecha: data.fecha,
+              contenido: data.contenido,
+          };
+
+          const updatedNotes = [...(selectedPlayerForNotes.notas_privadas || []), newNote];
+          
+          handleUpdatePlayerNotes(selectedPlayerForNotes.id_jugador, updatedNotes);
+
+          setSelectedPlayerForNotes({
+              ...selectedPlayerForNotes,
+              notas_privadas: updatedNotes
+          });
+      } catch (err) {
+          console.error('[BeScout] Error guardando nota:', err);
+      }
+  };
+
+  const handleDeleteNote = async (noteId: string) => {
+      if (!selectedPlayerForNotes) return;
+
+      try {
+          const { error } = await supabase
+              .from('notas_privadas')
+              .delete()
+              .eq('id', noteId);
+
+          if (error) throw error;
+
+          const updatedNotes = (selectedPlayerForNotes.notas_privadas || []).filter(n => n.id !== noteId);
+          handleUpdatePlayerNotes(selectedPlayerForNotes.id_jugador, updatedNotes);
+          setSelectedPlayerForNotes({
+              ...selectedPlayerForNotes,
+              notas_privadas: updatedNotes
+          });
+      } catch (err) {
+          console.error('[BeScout] Error eliminando nota:', err);
+      }
   };
 
   return (
@@ -138,12 +230,24 @@ export default function JugadoresSeguidosPage() {
               <p className="text-sm mt-1">Marca jugadores con la estrella (⭐) desde la Base de Datos.</p>
             </div>
           ) : (
-            <PlayerTable players={filteredPlayers} onToggleFollow={handleToggleFollow} />
+            <PlayerTable 
+                players={filteredPlayers} 
+                onToggleFollow={handleToggleFollow} 
+                onOpenNotes={setSelectedPlayerForNotes}
+            />
           )}
         </div>
 
       </main>
 
+      <PlayerNotesPanel 
+          isOpen={!!selectedPlayerForNotes}
+          onClose={() => setSelectedPlayerForNotes(null)}
+          playerName={selectedPlayerForNotes?.nombre_completo || ''}
+          notes={selectedPlayerForNotes?.notas_privadas || []}
+          onSaveNote={handleSaveNote}
+          onDeleteNote={handleDeleteNote}
+      />
     </div>
   );
 }

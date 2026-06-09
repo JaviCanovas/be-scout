@@ -5,15 +5,16 @@ import { formatCurrency } from "@/lib/utils";
 import { Badge } from "@/components/ui/Badge";
 import { SafeImage } from "@/components/ui/SafeImage";
 import { EloIndicator } from "@/components/ui/EloIndicator";
-import { Star } from "lucide-react";
+import { Star, ClipboardList } from "lucide-react";
 import Link from "next/link"; 
 
 interface PlayerTableProps {
     players: Jugador[];
     onToggleFollow?: (id: string, currentlyFollowed: boolean) => void;
+    onOpenNotes?: (player: Jugador) => void;
 }
 
-export function PlayerTable({ players, onToggleFollow }: PlayerTableProps) {
+export function PlayerTable({ players, onToggleFollow, onOpenNotes }: PlayerTableProps) {
     return (
         <div className="w-full bg-[#1c2025] rounded-xl border border-zinc-800/50 overflow-hidden">
             <div className="px-6 py-5 border-b border-zinc-800 flex justify-between items-center">
@@ -44,6 +45,7 @@ export function PlayerTable({ players, onToggleFollow }: PlayerTableProps) {
                             <th className="px-4 py-3 font-medium">Fin de Contrato</th>
                             <th className="px-6 py-3 font-medium text-right">Min. Jugados<br /><span className="text-[10px] text-zinc-500 capitalize font-normal">(Temporada)</span></th>
                             <th className="px-6 py-3 font-medium text-center">ELO</th>
+                            {onOpenNotes && <th className="px-4 py-3 font-medium text-center">Notas</th>}
                         </tr>
                     </thead>
                     <tbody className="divide-y divide-zinc-800/50">
@@ -104,13 +106,29 @@ export function PlayerTable({ players, onToggleFollow }: PlayerTableProps) {
                                     <td className="px-6 py-3 text-center">
                                         <EloIndicator elo={player.puntuacion_elo} size="sm" />
                                     </td>
+                                    {onOpenNotes && (
+                                        <td className="px-4 py-3 text-center">
+                                            <button 
+                                                onClick={() => onOpenNotes(player)}
+                                                className="inline-flex items-center justify-center p-1.5 rounded-md hover:bg-zinc-800 transition-colors relative group/note"
+                                                title="Ver notas privadas"
+                                            >
+                                                <ClipboardList className="w-4 h-4 text-zinc-400 group-hover/note:text-[var(--color-bescout-cyan)]" />
+                                                {player.notas_privadas && player.notas_privadas.length > 0 && (
+                                                    <span className="absolute -top-1 -right-1 w-3.5 h-3.5 bg-[var(--color-bescout-cyan)] rounded-full text-[9px] font-bold text-white flex items-center justify-center">
+                                                        {player.notas_privadas.length}
+                                                    </span>
+                                                )}
+                                            </button>
+                                        </td>
+                                    )}
                                 </tr>
                             )
                         })}
 
                         {players.length === 0 && (
                             <tr>
-                                <td colSpan={9} className="px-6 py-10 text-center text-zinc-500">
+                                <td colSpan={onOpenNotes ? 10 : 9} className="px-6 py-10 text-center text-zinc-500">
                                     No se encontraron jugadores que coincidan con los filtros.
                                 </td>
                             </tr>

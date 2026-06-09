@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { JugadorPropio, NotaPrivada } from '@/types';
 import { Badge } from '@/components/ui/Badge';
 import { SafeImage } from '@/components/ui/SafeImage';
-import { formatSalary, formatCurrency } from '@/lib/utils';
+import { formatSalary, formatCurrency, formatDateDDMMYYYY } from '@/lib/utils';
 import { ClipboardList, Save, X, Edit2 } from 'lucide-react';
 
 interface SquadTableProps {
@@ -135,14 +135,13 @@ export function SquadTable({ players, onOpenNotes, onUpdatePlayer }: SquadTableP
                                     <td className="px-4 py-2 text-zinc-300">
                                         {isEditing && editData ? (
                                             <input 
-                                                type="text" 
-                                                placeholder="DD/MM/AAAA"
-                                                className="w-24 bg-zinc-900 border border-zinc-700 rounded px-2 py-1 text-xs text-white focus:outline-none focus:border-[var(--color-bescout-cyan)]"
+                                                type="date" 
+                                                className="w-32 bg-zinc-900 border border-zinc-700 rounded px-2 py-1 text-xs text-white focus:outline-none focus:border-[var(--color-bescout-cyan)] [color-scheme:dark]"
                                                 value={editData.fin_contrato}
                                                 onChange={e => setEditData({...editData, fin_contrato: e.target.value})}
                                             />
                                         ) : (
-                                            player.acciones?.fin_contrato ?? '-'
+                                            formatDateDDMMYYYY(player.acciones?.fin_contrato)
                                         )}
                                     </td>
                                     <td className="px-4 py-2 text-zinc-300">
