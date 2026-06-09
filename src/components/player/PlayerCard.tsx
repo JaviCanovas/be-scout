@@ -191,7 +191,7 @@ export function PlayerCard({
                     src={player.imagen_url} 
                     fallbackType="player" 
                     alt={player.nombre_corto} 
-                    className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
+                    className="object-contain w-full h-full transition-transform duration-500 group-hover:scale-105"
                 />
 
                 {/* Gradient overlay */}

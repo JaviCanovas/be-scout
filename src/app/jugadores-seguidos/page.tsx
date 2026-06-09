@@ -326,13 +326,28 @@ export default function JugadoresSeguidosPage() {
       }
     });
 
+    let weakPosText = '-';
+    if (total > 0) {
+      const zeroPositions = Object.entries(positionCounts)
+        .filter(([_, count]) => count === 0)
+        .map(([pos]) => pos);
+
+      if (zeroPositions.length > 0) {
+        const displayed = zeroPositions.slice(0, 3).join(', ');
+        const suffix = zeroPositions.length > 3 ? '...' : '';
+        weakPosText = `${displayed}${suffix} (0)`;
+      } else if (minCount !== Infinity) {
+        weakPosText = `${weakPos} (${minCount})`;
+      }
+    }
+
     return {
       total,
       avgRating,
       avgAge,
       uniqueClubs,
       leaderPos: maxCount > 0 ? `${leaderPos} (${maxCount})` : '-',
-      weakPos: minCount !== Infinity && minCount !== 0 ? `${weakPos} (${minCount})` : '-'
+      weakPos: weakPosText
     };
   }, [allPlayers]);
 
