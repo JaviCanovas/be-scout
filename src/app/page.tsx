@@ -19,7 +19,8 @@ export default function Home() {
     ageRange: ['', ''],
     onlyU23: false,
     minutesPlayed: ['', ''],
-    marketValue: ['', '']
+    marketValue: ['', ''],
+    minRating: null
   });
 
   useEffect(() => {
@@ -69,6 +70,10 @@ export default function Home() {
           },
           imagen_url: row.imagen_url ?? null,
           es_seguido: row.es_seguido ?? false,
+          es_propio: row.es_propio ?? false,
+          valoracion_estrellas: row.valoracion_estrellas ?? 0,
+          informe_pdf_url: row.informe_pdf_url ?? null,
+          video_url: row.video_url ?? null,
         }));
 
         setAllPlayers(mapped);

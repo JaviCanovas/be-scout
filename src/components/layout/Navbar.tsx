@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Shield, Users, Database, ClipboardList, User } from 'lucide-react';
+import { Shield, Users, Database, ClipboardList, User, Map } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 interface NavLink {
@@ -30,6 +30,12 @@ const navLinks: NavLink[] = [
         href: '/jugadores-seguidos',
         icon: <ClipboardList className="w-4 h-4" />,
         matchPaths: ['/jugadores-seguidos'],
+    },
+    {
+        label: 'Campograma Táctico',
+        href: '/campograma',
+        icon: <Map className="w-4 h-4" />,
+        matchPaths: ['/campograma'],
     },
 ];
 

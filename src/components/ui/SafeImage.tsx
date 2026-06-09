@@ -25,6 +25,18 @@ export function SafeImage({ src, fallbackType = 'player', className, alt, ...pro
         );
     }
 
+    if (typeof src === 'string' && src.startsWith('data:')) {
+        return (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+                src={src}
+                className={cn("w-full h-full", className)}
+                alt={alt || "Image"}
+                onError={() => setError(true)}
+            />
+        );
+    }
+
     return (
         <Image
             src={src}

@@ -39,7 +39,11 @@ export interface Jugador {
     imagen_url: string | null;
     es_seguido?: boolean;
     es_sub23?: boolean;
+    es_propio?: boolean;
     notas_privadas?: NotaPrivada[];
+    valoracion_estrellas?: number | null;
+    informe_pdf_url?: string | null;
+    video_url?: string | null;
 }
 
 // --- Gestión de Jugadores Propios (Plantilla UCAM CF) ---

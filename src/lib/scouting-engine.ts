@@ -9,6 +9,7 @@ export interface FilterOptions {
     onlyU23: boolean;
     minutesPlayed: [number | '', number | ''];
     marketValue: [number | '', number | ''];
+    minRating: number | null;
 }
 
 export function isU23(edad: number | null): boolean {
@@ -18,6 +19,12 @@ export function isU23(edad: number | null): boolean {
 
 export function filterPlayers(players: Jugador[], filters: FilterOptions): Jugador[] {
     return players.filter((player) => {
+        // Star Rating Filter
+        if (filters.minRating !== null && filters.minRating !== undefined && filters.minRating > 0) {
+            const pRating = player.valoracion_estrellas ?? 0;
+            if (pRating < filters.minRating) return false;
+        }
+
         // Search Term
         if (filters.searchTerm && !player.nombre_completo.toLowerCase().includes(filters.searchTerm.toLowerCase()) && !player.nombre_corto.toLowerCase().includes(filters.searchTerm.toLowerCase())) {
             return false;

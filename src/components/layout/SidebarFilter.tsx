@@ -2,7 +2,7 @@
 
 import { FilterOptions } from "@/lib/scouting-engine";
 import { cn } from "@/lib/utils";
-import { Search } from "lucide-react";
+import { Search, Star } from "lucide-react";
 
 interface SidebarFilterProps {
     filters: FilterOptions;
@@ -242,6 +242,48 @@ export function SidebarFilter({ filters, setFilters, className }: SidebarFilterP
                         className="w-1/2 bg-[#1c2025] border border-zinc-800 rounded-lg py-2 px-3 text-sm text-white focus:outline-none focus:border-zinc-700"
                         placeholder="Máx"
                     />
+                </div>
+            </div>
+
+            {/* Valoración (Estrellas) */}
+            <div className="space-y-3 pt-2 border-t border-zinc-800/60">
+                <label className="text-sm text-zinc-400">Valoración Mínima</label>
+                <div className="flex items-center gap-1">
+                    {[1, 2, 3, 4, 5].map((star) => {
+                        const isSelected = filters.minRating !== null && filters.minRating >= star;
+                        return (
+                            <button
+                                key={star}
+                                type="button"
+                                onClick={() => {
+                                    setFilters(prev => ({
+                                        ...prev,
+                                        minRating: prev.minRating === star ? null : star
+                                    }));
+                                }}
+                                className="p-1 hover:scale-110 transition-transform cursor-pointer"
+                                title={`Filtrar por ${star} o más estrellas`}
+                            >
+                                <Star
+                                    className={cn(
+                                        "w-5 h-5 transition-colors",
+                                        isSelected
+                                            ? "fill-yellow-500 text-yellow-500"
+                                            : "text-zinc-600 hover:text-zinc-400"
+                                    )}
+                                />
+                            </button>
+                        );
+                    })}
+                    {filters.minRating !== null && (
+                        <button
+                            type="button"
+                            onClick={() => setFilters(prev => ({ ...prev, minRating: null }))}
+                            className="text-xs text-zinc-500 hover:text-zinc-300 ml-2 underline cursor-pointer"
+                        >
+                            Limpiar
+                        </button>
+                    )}
                 </div>
             </div>
 
